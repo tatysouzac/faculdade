@@ -1,0 +1,70 @@
+/*Topo*/
+body{
+    overflow-x: hidden;
+}
+.topo{
+    background-color: #E8E8E8;
+    height: 50px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.logo{
+    text-align: left;
+    margin-left: 50px;
+    font-family: Blippo, fantasy;
+ }
+
+.link, .link:hover{
+    text-align: left;
+    margin-left: 50px;
+    font-family: Blippo, fantasy;
+    color: #000;
+    text-decoration: none;
+    position: fixed;
+}
+
+.nav-link{
+    color: #fff;
+    font-family: OCR A Std, monospace;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.nav-link:hover{
+    color: #000;
+}
+
+.fa-user-graduate, .fa-phone{
+    font-size: 12px;
+    padding-top: 15px;
+    color: #000;
+}
+
+.fa-user-graduate:hover, .fa-phone:hover{
+    font-size: 12px;
+    padding-top: 15px;
+    color: red;
+}
+
+.menu{
+    background-color: red;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.footer{
+    text-align: center;
+    background-color: #828282;
+    height: 50px;
+    position: relative;
+    padding-top: 15px;
+    position: fixed;
+    bottom: 0;
+    color: #fff;
+    width: 100%;
+}
+
+h3{
+    text-align: center;
+}
