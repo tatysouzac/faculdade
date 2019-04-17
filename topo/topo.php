@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-md-8">
             <div class="logo">
-                <a class="link" href="./home.php">
+                <a class="link" href="../home.php">
                     <h2>Faculdade Fatads</h2>
                 </a>
             </div>
