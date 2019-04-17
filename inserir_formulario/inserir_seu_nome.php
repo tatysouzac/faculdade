@@ -18,7 +18,7 @@ if ($inserir) {
     echo "<script>alert('Erro ao cadastrar boleto.')</script>";
 }
 
-echo "<script> window.location.href = '../paginas/lancar_boleto.html' </script>";
+echo "<script> window.location.href = '../paginas_formularios/formulario_seu_nome.php' </script>";
 
 mysqli_close($conn);
 ?>

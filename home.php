@@ -16,24 +16,30 @@
         <div class="topo">
             <div class="row">
                 <div class="col-md-12">
-                    <?php include './topo/topo.php'; ?>
+                    <?php include 'topo/topo.php'; ?>
                 </div>
             </div>
         </div>
         <div class="menu">
             <div class="row">
                 <div class="col-md-12">
-                    <?php include './menu/menu.php'; ?>
+                    <?php include 'menu/menu.php'; ?>
                 </div>
             </div>
         </div>
         <!-- Colocar o seu formulario aqui -->
-        
+        <div class="banner">
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="imagem/banner.jpg" class="img-fluid" alt="Responsive image">
+                </div>
+            </div>
+        </div>
         <!-- Colocar o seu formulario aqui -->
         <div class="footer">
             <div class="row">
                 <div class="col-md-12">
-                    <?php include './rodape/rodape.php'; ?>
+                    <?php include 'rodape/rodape.php'; ?>
                 </div>
             </div>
         </div>

@@ -17,18 +17,16 @@ body{
 
 .link, .link:hover{
     text-align: left;
-    margin-left: 50px;
     font-family: Blippo, fantasy;
     color: #000;
     text-decoration: none;
-    position: fixed;
 }
 
 .nav-link{
     color: #fff;
     font-family: OCR A Std, monospace;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .nav-link:hover{
