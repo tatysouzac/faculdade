@@ -31,57 +31,54 @@
         <br>
         <div class="container ">
             <div class="row ">
-                <div class="col-md-3">
+                <div class="col-md-2">
                 </div>
-                <div class="col-md-6 ">
+                <div class="col-md-8 ">
                     <h3>Cadastro Aluno</h3>
-				
                     <form method="post" action="inserir_formulario/inserir_thiago.php" name="formulario_aluno">
-     
-                            <div class="form-group">
-                                <label for="nome">Nome</label>
-                                <input type="text" class="form-control" id="nome" name="nome_aluno" placeholder="Digite o nome do aluno">
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" class="form-control" id="nome" name="nome_aluno" placeholder="Digite o nome do aluno">
+                        </div>
+                        <div class="form-group">
+                            <label for="sobrenome">Sobrenome</label>
+                            <input type="text" class="form-control" id="sobrenome" name="sobrenome_aluno" placeholder="Digite o sobrenome do aluno">
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-9">
+                                <label for="telefone">Telefone</label>
+                                <input type="text" class="form-control" id="telefone" name="telefone_aluno" placeholder="Digite o telefone do aluno">
                             </div>
-                            <div class="form-group">
-                                <label for="sobrenome">Sobrenome</label>
-                                <input type="text" class="form-control" id="sobrenome" name="sobrenome_aluno" placeholder="Digite o sobrenome do aluno">
+                            <div class="form-group col-md-3">
+                                <label for="idade">Idade</label>
+                                <input type="text" class="form-control" id="idade" name="idade_aluno" placeholder="">
                             </div>
-							<div class="form-row">
-								<div class="form-group col-md-9">
-									<label for="telefone">Telefone</label>
-									<input type="text" class="form-control" id="telefone" name="telefone_aluno" placeholder="Digite o telefone do aluno">
-								</div>
-								<div class="form-group col-md-3">
-									<label for="idade">Idade</label>
-									<input type="text" class="form-control" id="idade" name="idade_aluno" placeholder="">
-								</div>
-							</div>
-							<div class="form-row">
-								<div class="form-group col-md-6">
-									<label for="turma">Turma</label>
-									<input type="text" class="form-control" id="turma" name="turma_aluno" placeholder="Digite o nome da turma">
-								</div>
-								<div class="form-group col-md-6">
-									<label for="curso">Curso</label>
-									<select id="curso" class="form-control" name="curso_aluno">
-										<option selected>Escolher</option>
-										<option>Analise de Sistemas</option>
-										<option>Engenharia Civil</option>
-										<option>Processos Industriais</option>
-										<option>Administracao</option>
-										<option>Arquitetura e Urbanismo</option>
-										<option>Gestao Ambiental</option>
-									</select>
-								</div>
-							</div>
-							<div class="form-group">
-							   <button type="submit" class="btn btn-success ">Salvar</button>
-							   <button type="reset" class="btn btn-danger">Limpar</button>
-               				</div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="turma">Turma</label>
+                                <input type="text" class="form-control" id="turma" name="turma_aluno" placeholder="Digite o nome da turma">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="curso">Curso</label>
+                                <select id="curso" class="form-control" name="curso_aluno">
+                                    <option selected>Escolher</option>
+                                    <option>Analise de Sistemas</option>
+                                    <option>Engenharia Civil</option>
+                                    <option>Processos Industriais</option>
+                                    <option>Administracao</option>
+                                    <option>Arquitetura e Urbanismo</option>
+                                    <option>Gestao Ambiental</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-success ">Salvar</button>
+                            <button type="reset" class="btn btn-danger">Limpar</button>
+                        </div>
                     </form>
                 </div>
-                <div class="col-md-3">
-				
+                <div class="col-md-2">
                 </div>
             </div>
         </div>

@@ -54,6 +54,7 @@
                             <label for="inputaluno_chamada">Nome do Aluno</label>
                             <input type="text" class="form-control" id="inputaluno_chamada" placeholder="nome do aluno" name="aluno_chamada">
                         </div>
+                        <div class="form-row">
                             <div class="form-group col-md-4">
                                 <label for="inputState">Aluno esta Presente</label>
                                 <select id="inputState" class="form-control" name="presenca_chamada">
@@ -61,7 +62,8 @@
                                     <option>Nao</option>
                                 </select>
                             </div>
-                         
+                        </div>
+
                         <button type="submit" class="btn btn-success">Salvar</button>
                         <button type="reset" class="btn btn-danger">Limpar</button>
                     </form>
@@ -71,13 +73,13 @@
             </div>
         </div>
         <!-- Colocar o seu formulario aqui -->
-        <div class="footer">
+        <footer class="footer">
             <div class="row">
                 <div class="col-md-12">
                     <?php include 'rodape/rodape.php'; ?>
                 </div>
             </div>
-        </div>
+        </footer>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
