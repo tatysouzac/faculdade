@@ -55,11 +55,11 @@ body{
     text-align: center;
     background-color: #828282;
     height: 50px;
-    position: relative;
     padding-top: 15px;
-    position: relative;
     color: #fff;
     width: 100%;
+    position:absolute;
+    bottom:0;
 }
 
 h3{

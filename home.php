@@ -36,16 +36,14 @@
             </div>
         </div>
         <!-- Colocar o seu formulario aqui -->
-        <footer>
-             <div class="footer">
+        <footer class="footer">
             <div class="row">
                 <div class="col-md-12">
                     <?php include 'rodape/rodape.php'; ?>
                 </div>
             </div>
-        </div>
         </footer>
-       
+
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
